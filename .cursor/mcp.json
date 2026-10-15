@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mini-finance": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}${/}server.mjs"
+      ]
+    }
+  }
+}

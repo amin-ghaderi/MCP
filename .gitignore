@@ -1,0 +1,5 @@
+node_modules/
+finance-demo.sqlite
+finance-demo.sqlite-journal
+finance-demo.sqlite-wal
+finance-demo.sqlite-shm

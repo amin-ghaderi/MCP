@@ -1,0 +1,22 @@
+{
+  "name": "mini-finance-mcp-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny MCP server exposing a real local SQLite accounting demo for Cursor",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "inspect-db": "node inspect-db.mjs",
+    "test:mcp": "node test-mcp.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
+    "zod": "^4.2.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.3.1"
+  }
+}
